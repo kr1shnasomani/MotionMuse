@@ -52,8 +52,7 @@ The code is designed to detect and classify human poses from an image using the 
      - Classifies the pose as standing, sitting, squatting, lunging, etc., based on certain thresholds for joint angles and body part positions.
      - Scores various pose types and returns the pose with the highest score if it meets a confidence threshold.
 
-6. **Pose Detection from Image**:
-   - `identify_pose(image_path)`: This function processes an input image:
+6. **Pose Detection from Image**: `identify_pose(image_path)`: This function processes an input image:
      - It reads the image using OpenCV.
      - Converts the image to RGB format (required by MediaPipe).
      - Processes the image to detect the pose landmarks using the MediaPipe Pose model.
