@@ -17,7 +17,7 @@ pose = mp_pose.Pose(
     model_complexity=2
 )
 
-# Calculate the angle between three points
+# Calculate the angle between the three points
 def calculate_angle(a, b, c):
     if not all([a, b, c]) or any(np.isnan([a.x, a.y, b.x, b.y, c.x, c.y])):
         return None
